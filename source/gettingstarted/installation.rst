@@ -91,3 +91,66 @@ something similar as following:
     Requirement already satisfied: pip>=9.0.1 in c:\users\jani\appdata\local\programs\python\python38\lib\site-packages (from pipenv) (19.2.3)
     Installing collected packages: virtualenv-clone, virtualenv, certifi, pipenv
 
+Code editor
+-----------
+
+There are a lot of different editors and it largely boils down to personal
+preference. Most Python programmers use complex but extremely powerful IDEs
+(Integrated Development Environments), such as PyCharm. This tutorial
+deals installing, configuring and using PyCharm with Pygame later.
+
+As a beginner, however, using IDEs are probably less suitable, here are few
+recommendations that are equaly powerful but lot simpler.
+
+Visual Studio Code
+------------------
+
+Visual Studio Code is source code-editor developed by Microsoft. It has support
+for syntax highlightning, code completition and other tools. It is fairly
+easy to use.
+
+`Download it here <https://code.visualstudio.com/>`_
+
+Gedit
+-----
+
+Gedit is GNOME text editor. It's more generic purpose text editor but it
+still has features like syntax highlightning and it's well suitable for
+tutorial purposes.
+
+`Download it here <https://wiki.gnome.org/Apps/Gedit#Download>`_
+
+Sublime Text 3
+--------------
+
+Sublime Text is very popular editor with free evaluation period. Note that it's
+not free.
+
+`Download it here <https://www.sublimetext.com/3>`_
+
+Atom
+----
+
+Atom is another popular editor. It's free and open-source and developed by
+GitHub.
+
+`Download it here <https://atom.io/>`_
+
+Why are we installing a code editor?
+------------------------------------
+
+You might be wondering why we are installing this special code editor software,
+rather than using something like Wordpad or Notepad.
+
+The first reason is that code needs to be **plain text**, and the problem with
+programs like Word and Textedit is tha they don't actually produce plain text,
+they produce rich text (with fonts and formatting) using custom formats like
+RTF (Rich Text Format).
+
+Second reason is that code editors are specialized for editing code, so they can
+provide helpful features like highlightning code with color according to it's
+meaning, or automatically closing quotes for you. Some editors can even show
+certain type of mistakes and errors before you even run the program you have
+written.
+
+You'll see all this in action later.
