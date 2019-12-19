@@ -17,7 +17,7 @@ import cloud_sptheme as csp
 
 # -- Project information -----------------------------------------------------
 
-project = 'Python for PyGamers 101'
+project = 'Python 101 for PyGamers'
 copyright = '2019, Jani Tiainen'
 author = 'Jani Tiainen'
 
