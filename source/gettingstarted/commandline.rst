@@ -1,5 +1,7 @@
-Command line
-============
+.. _Introduction to command-line:
+
+Introduction to command-line
+============================
 
 In many steps regarding Python usage reference the "console", 
 "terminal", "command window" or "command-line" -- these all mean

@@ -6,5 +6,6 @@ Table of Contents
     index
     
     gettingstarted/commandline
-    
     gettingstarted/installation
+    gettingstarted/intro
+
