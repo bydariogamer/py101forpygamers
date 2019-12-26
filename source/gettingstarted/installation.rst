@@ -91,6 +91,8 @@ something similar as following:
     Requirement already satisfied: pip>=9.0.1 in c:\users\jani\appdata\local\programs\python\python38\lib\site-packages (from pipenv) (19.2.3)
     Installing collected packages: virtualenv-clone, virtualenv, certifi, pipenv
 
+.. _code-editor:
+
 Code editor
 -----------
 
@@ -101,6 +103,12 @@ deals installing, configuring and using PyCharm with Pygame later.
 
 As a beginner, however, using IDEs are probably less suitable, here are few
 recommendations that are equaly powerful but lot simpler.
+
+.. note:: 
+    From author:
+
+    If you're unfamiliar with any editor and are unsure which one to pick,
+    I recommend using Visual Studio Code.
 
 Visual Studio Code
 ------------------
