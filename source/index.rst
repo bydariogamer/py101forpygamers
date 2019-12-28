@@ -17,7 +17,11 @@ I recommend that you read the chapters in the following order:
 License
 -------
 
-This documentation is licensed under `Creative Commons Attribution-ShareAlike 4.0 International License <https://creativecommons.org/licenses/by-sa/4.0/>`_
+The tutorial is licensed under a 
+Creative Commons Attribution-ShareAlike 4.0 International License.
+
+You should have received a copy of the license along with this
+work. If not, see http://creativecommons.org/licenses/by-sa/4.0/.
 
 .. image:: _static/by-sa.png
     :width: 100
