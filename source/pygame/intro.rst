@@ -192,7 +192,7 @@ Now your file should look like this:
 
     import pygame as pg
     pg.init()
-    pg.display.set_mode([500, 500]
+    pg.display.set_mode([500, 500])
 
 Save the file and run it:
 
@@ -233,7 +233,7 @@ Now your file should look like the following:
 
     import pygame as pg
     pg.init()
-    pg.display.set_mode([500, 500]
+    pg.display.set_mode([500, 500])
     while True:
         event = pg.event.poll()
         if event.type == pg.QUIT:
@@ -314,7 +314,7 @@ Now the full program should look like the following:
 
     import pygame as pg
     pg.init()
-    pg.display.set_mode([500, 500]
+    pg.display.set_mode([500, 500])
     while True:
         for event in pg.event.get():
             if event.type == pg.QUIT:
