@@ -1,3 +1,5 @@
+.. _pythonintroduction:
+
 Introduction to Python
 ======================
 
@@ -10,7 +12,7 @@ Python prompt
 
 To start playing with Python you need to open up a *command-line* on your
 computer. You should already know how to do that - you learned that in the
-:ref:`Introduction to command-line` chapter.
+:ref:`shellintro` chapter.
 
 Once you're ready follow the instructions below.
 
@@ -341,8 +343,8 @@ following command:
 
 .. code-block:: python
 
->>> lottery.append(199)
->>> print(lottery)
+    >>> lottery.append(199)
+    >>> print(lottery)
     [59, 42, 30, 19, 12, 3, 199]
 
 If you want to show only the first number, you can do this by using **indexes**.
@@ -351,6 +353,7 @@ prefer to start counting at 0, so the first object in your list is at index 0,
 the next one is at 1, and so on. Try this:
 
 .. code-block:: python
+
     >>> print(lottery[0])
     59
     >>> print(lottery[1])
@@ -390,6 +393,7 @@ instead of a numeric index. A key can be any string or number. The syntax to
 define an empty dictionary is:
 
 .. code-block:: python
+
     >>> {}
     {}
 
@@ -689,12 +693,6 @@ On Windows Command Prompt, it will be like this:
 
     > cd %HomePath%\Desktop
 
-And on Windows Powershell, it will be like this:
-
-.. code-block:: Powershell
-
-    > cd $Home\Desktop
-
 
 If you get stuck, ask for help.
 
@@ -733,7 +731,7 @@ Replace the code in your **python_intro.py** file with this:
 
 If you were to save and run this, you'd see an error like this:
 
-.. code-block:: python
+.. code-block::
 
     $ python3 python_intro.py
     File ".\python_intro.py", line 2
@@ -816,7 +814,7 @@ Now let's see how `elif` works:
 
 and executed:
 
-.. code-block:: python
+.. code-block::
 
     $ python3 python_intro.py
     Hey Marci!

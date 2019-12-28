@@ -1,4 +1,4 @@
-.. _Introduction to command-line:
+.. _shellintro:
 
 Introduction to command-line
 ============================

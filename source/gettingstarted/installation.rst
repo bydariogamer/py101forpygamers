@@ -1,3 +1,5 @@
+.. _firststeps:
+
 First steps
 ===========
 
@@ -24,7 +26,7 @@ Python is required for use of Pygame.
 Install Python: Windows
 -----------------------
 
-First check wether your computer is running a 32-bit version or a 64-bit
+First check whether your computer is running a 32-bit version or a 64-bit
 version of Windows, on the "System type" line of System Info page. To
 reach this page, try one of these methods:
 
@@ -38,7 +40,7 @@ You can download Python for Windows from the website
 https://www.python.org/downloads/windows/. Download latest version 
 available. At the time of writing it that is 3.8.0. If your computer is
 running **64-bit** windows download **Windows x86-64 executable installer**.
-Otherwise doanload **Windows x86 executable installer**. After downloading
+Otherwise download **Windows x86 executable installer**. After downloading
 installer, you should run (double-click on it) and follow the instructions
 here.
 
@@ -102,7 +104,7 @@ preference. Most Python programmers use complex but extremely powerful IDEs
 deals installing, configuring and using PyCharm with Pygame later.
 
 As a beginner, however, using IDEs are probably less suitable, here are few
-recommendations that are equaly powerful but lot simpler.
+recommendations that are equally powerful but lot simpler.
 
 .. note:: 
     From author:
@@ -114,7 +116,7 @@ Visual Studio Code
 ------------------
 
 Visual Studio Code is source code-editor developed by Microsoft. It has support
-for syntax highlightning, code completition and other tools. It is fairly
+for syntax highlighting, code completition and other tools. It is fairly
 easy to use.
 
 `Download it here <https://code.visualstudio.com/>`_
@@ -123,7 +125,7 @@ Gedit
 -----
 
 Gedit is GNOME text editor. It's more generic purpose text editor but it
-still has features like syntax highlightning and it's well suitable for
+still has features like syntax highlighting and it's well suitable for
 tutorial purposes.
 
 `Download it here <https://wiki.gnome.org/Apps/Gedit#Download>`_
@@ -151,12 +153,12 @@ You might be wondering why we are installing this special code editor software,
 rather than using something like Wordpad or Notepad.
 
 The first reason is that code needs to be **plain text**, and the problem with
-programs like Word and Textedit is tha they don't actually produce plain text,
+programs like Word and Textedit is that they don't actually produce plain text,
 they produce rich text (with fonts and formatting) using custom formats like
 RTF (Rich Text Format).
 
 Second reason is that code editors are specialized for editing code, so they can
-provide helpful features like highlightning code with color according to it's
+provide helpful features like highlighting code with color according to it's
 meaning, or automatically closing quotes for you. Some editors can even show
 certain type of mistakes and errors before you even run the program you have
 written.

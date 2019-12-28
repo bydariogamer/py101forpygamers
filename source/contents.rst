@@ -5,7 +5,11 @@ Table of Contents
 
     index
     
+    pygame/askingforhelp
+
     gettingstarted/commandline
     gettingstarted/installation
     gettingstarted/intro
+
+    pygame/intro
 
