@@ -13,3 +13,12 @@ I recommend that you read the chapters in the following order:
 #. :ref:`shellintro`
 #. :ref:`pythonintroduction`
 #. :ref:`pygameintroduction`
+
+License
+-------
+
+This documentation is licensed under `Creative Commons Attribution-ShareAlike 4.0 International License <https://creativecommons.org/licenses/by-sa/4.0/>`_
+
+.. image:: _static/by-sa.png
+    :width: 100
+    :align: center
