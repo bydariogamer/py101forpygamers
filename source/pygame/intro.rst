@@ -6,6 +6,8 @@ Introduction to Pygame
 Now you should be comfortable with the Python and using the command-line. It
 is time to start get hands dirty with the Pygame.
 
+.. _projectdirs:
+
 Creating workspace
 ------------------
 

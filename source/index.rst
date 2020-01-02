@@ -14,6 +14,11 @@ I recommend that you read the chapters in the following order:
 #. :ref:`pythonintroduction`
 #. :ref:`pygameintroduction`
 
+Looking for PyCharm how-to?
+---------------------------
+
+Then see the :ref:`pycharm` chapter.
+
 License
 -------
 
