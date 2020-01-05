@@ -31,3 +31,9 @@ work. If not, see http://creativecommons.org/licenses/by-sa/4.0/.
 .. image:: _static/by-sa.png
     :width: 100
     :align: center
+
+Found a Bug?
+------------
+
+If you found a bug or want to submit enhancements or content requests you can
+find issue tracker at https://github.com/jtiai/py101forpygamers/issues
