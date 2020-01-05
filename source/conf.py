@@ -77,6 +77,7 @@ html_theme_options = {
     "borderless_decor": True,
     "sidebarwidth": "3in",
     "hyphenation_language": "en",
+    "googleanalytics_id": "UA-155380318-1"
 }
 
 html_theme_path = [csp._theme_dir]
