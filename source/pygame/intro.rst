@@ -72,7 +72,7 @@ following command:
 
 .. code-block:: winbatch
 
-    > pipenv install pygame==2.0.0dev6
+    > pipenv install --pre pygame==2.0.0.dev6
 
 The ``pipenv`` command does several things at once. At the first time it may
 take a long time to run since it builds up some caches. So what happens when
