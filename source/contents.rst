@@ -12,5 +12,6 @@ Table of Contents
     gettingstarted/intro
 
     pygame/intro
-
+    pygame/movingthings
+    
     pycharm

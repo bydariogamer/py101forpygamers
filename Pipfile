@@ -5,6 +5,7 @@ verify_ssl = true
 
 [dev-packages]
 pylint = "*"
+pygame = "==2.0.0.dev6"
 
 [packages]
 sphinx = "*"

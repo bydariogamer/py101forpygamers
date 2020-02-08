@@ -129,6 +129,13 @@ installation.
     In case of installation problems, for example if these instructions
     are outdated, please see https://www.pygame.org/wiki/GettingStarted.
 
+.. warning::
+
+    Pipenv first looks up Pipfile up in the directory tree. If it exists
+    it uses that file instead of creating a new one. If you experience 
+    missing Pipfile please check your directory tree that there are no
+    Pipfile there.
+
 Initialization and a gameloop
 -----------------------------
 
