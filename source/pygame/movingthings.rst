@@ -219,7 +219,7 @@ In the event loop you need to add handler for mouse click:
     +            direction_vec.normalize_ip()
 
 When ``event.type`` is ``pg.MOUSEBUTTONDOWN`` ``event`` contains new attributes,
-``event.button``and ``event.pos``. ``button`` contains which button is pressed
+``event.button`` and ``event.pos``. ``button`` contains which button is pressed
 and ``pos`` contains position where mouse button was pressed down.
 
 First thing is to set ``target_vec`` to point where you want the object move
