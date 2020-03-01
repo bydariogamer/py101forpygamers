@@ -9,11 +9,11 @@ syntax highlight, code completion, linting, debugger and many more features.
 A word of warning
 -----------------
 
-PyCharm is a complex IDE. Using it requires a good knowledge of Python ecosystem.
-When starting with Python and Pygame I, as an author, highly recommend that
-you don't use PyCharm to do these tutorials. It is better to use traditional
-code editors as instructed in the :ref:`firststeps` and the command-line as 
-it is used throughout tutorials.
+PyCharm is a complex IDE. Using it requires a good knowledge of Python
+ecosystem. When starting with Python and Pygame I, as an author, highly
+recommend that you don't use PyCharm to do these tutorials. It is better to 
+use traditional code editors as instructed in the :ref:`firststeps` and
+the command-line as it is used throughout tutorials.
 
 Preparations
 ------------
@@ -61,7 +61,7 @@ Now it is time to start PyCharm and open directory you just created as a project
 
 You should see screen like the following:
 
-.. image:: _static/pycharm_1.png
+.. image:: /_static/pycharm_1.png
 
 PyCharm might automatically detect ``Pipfile`` and setup project interpreter
 for you. Sometimes it fails for no apparent reason and it doesn't mean that
@@ -69,32 +69,32 @@ you made mistake.
 
 You can check it opening up "Settings":
 
-.. image:: _static/pycharm_2.png
+.. image:: /_static/pycharm_2.png
 
 Then should see the following:
 
-.. image:: _static/pycharm_6.png
+.. image:: /_static/pycharm_6.png
 
 In the case of automatic configuration failed you see the following:
 
-.. image:: _static/pycharm_3.png
+.. image:: /_static/pycharm_3.png
 
 In this case you need to add the interpreter manually.
 
 To add interpreter click the three dots next to "<No interpreter>", and 
 select "Add..." as in the following picture:
 
-.. image:: _static/pycharm_4.png
+.. image:: /_static/pycharm_4.png
 
 Then select "Pipenv Environment". Ensure that "Install packages from Pipfile"
 is checked and the Pipenv executable is set properly.
 
-.. image:: _static/pycharm_5.png
+.. image:: /_static/pycharm_5.png
 
 Click OK. PyCharm shows a dialog about creating Pipenv environment.
 Once completed you should see the following:
 
-.. image:: _static/pycharm_6.png
+.. image:: /_static/pycharm_6.png
 
 Click OK until you're back in PyCharm main window.
 
@@ -111,10 +111,10 @@ Save the file.
 
 Right-click on your newly created file and select "Run: '<filename>'".
 
-.. image:: _static/pycharm_8.png
+.. image:: /_static/pycharm_8.png
 
 If everything went well you should see the following output:
 
-.. image:: _static/pycharm_9.png
+.. image:: /_static/pycharm_9.png
 
 Congratulations you have now working project within PyCharm.

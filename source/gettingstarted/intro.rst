@@ -16,8 +16,8 @@ computer. You should already know how to do that - you learned that in the
 
 Once you're ready follow the instructions below.
 
-You need to open up a Python console, so type in ``python`` in command-line and
-hit ``enter``
+You need to open up a Python console, so type in ``python`` in command-line
+and hit ``enter``
 
 .. code-block::
 
@@ -36,8 +36,8 @@ type ``>>>`` in - Python will do that for you automatically.
 If you want to exit Python console at any point, type ``exit()`` or use 
 shortcut ``Ctrl + Z``. Then you won't see ``>>>`` any longer.
 
-For now stay in Python console so you can learn more about it. Start by typing 
-in some math, like ``1 + 2`` and hitting ``enter``.
+For now stay in Python console so you can learn more about it. Start by
+typing in some math, like ``1 + 2`` and hitting ``enter``.
 
 .. code-block:: python
     
@@ -116,9 +116,9 @@ You might wonder why you used dot (``.``) when you called ``upper()`` on
 your name. When you use dot like in ``"Jani".upper()"`` you called a **method**.
 
 A method is a is a sequence of instructions that Python has to execute on a
-given object (``"Jani"``) when you call it. Methods always do belong to objects.
-In this case object is a string. String has also other methods like ``lower()``
-and ``title()``. You can try them out.
+given object (``"Jani"``) when you call it. Methods always do belong to
+objects. In this case object is a string. String has also other methods
+like ``lower()`` and ``title()``. You can try them out.
 
 If you want to know the number of letters contained in your name, there is a
 **function** for that.
@@ -303,9 +303,9 @@ will put it in a variable, too:
 
     >>> lottery = [3, 42, 12, 19, 30, 59]
 
-All right, you have a list! What can you do with it? Let's see how many lottery
-numbers there are in a list. Do you have any idea which function you should
-use for that? You know this already!
+All right, you have a list! What can you do with it? Let's see how many
+lottery numbers there are in a list. Do you have any idea which function you
+should use for that? You know this already!
 
 .. code-block:: python
 
@@ -347,10 +347,10 @@ following command:
     >>> print(lottery)
     [59, 42, 30, 19, 12, 3, 199]
 
-If you want to show only the first number, you can do this by using **indexes**.
-An index is the number that says where in a list an item occurs. Programmers 
-prefer to start counting at 0, so the first object in your list is at index 0, 
-the next one is at 1, and so on. Try this:
+If you want to show only the first number, you can do this by using
+**indexes**. An index is the number that says where in a list an item occurs.
+Programmers prefer to start counting at 0, so the first object in your list
+is at index 0, the next one is at 1, and so on. Try this:
 
 .. code-block:: python
 
@@ -406,12 +406,13 @@ too):
 
     >>> participant = {'name': 'Jani', 'country': 'Finland', 'favorite_numbers': [7, 42, 92]}
 
-With this command, you just created a variable named ``participant`` with three
-key–value pairs:
+With this command, you just created a variable named ``participant`` with
+three key–value pairs:
 
 - The key ``name`` points to the value ``'Jani'`` (a ``string`` object),
 - ``country`` points to ``'Finland'`` (another ``string``),
-- and ``favorite_numbers`` points to ``[7, 42, 92]`` (a ``list`` with three numbers in it).
+- and ``favorite_numbers`` points to ``[7, 42, 92]`` (a ``list`` with three
+  numbers in it).
 
 You can check the content of individual keys with following syntax:
 
@@ -451,8 +452,8 @@ it is created, like this:
 
     >>> participant['favorite_language'] = 'Python'
 
-Like lists, using the ``len()`` method on the dictionaries returns the number of
-key–value pairs in the dictionary. Go ahead and type in this command:
+Like lists, using the ``len()`` method on the dictionaries returns the number
+of key–value pairs in the dictionary. Go ahead and type in this command:
 
 .. code-block:: python
 
@@ -476,8 +477,8 @@ type in the following command:
 As you can see from the output, the key–value pair corresponding to the
 'favorite_numbers' key has been deleted.
 
-As well as this, you can also change a value associated with an already-created
-key in the dictionary. Type this:
+As well as this, you can also change a value associated with an already
+created key in the dictionary. Type this:
 
 .. code-block:: python
 
@@ -642,8 +643,8 @@ for the next few tasks, so you'll quickly need to:
 - Save some code into a new python file
 - Run it!
 
-To exit from the Python interpreter that you've been using, type the ``exit()``
-function.
+To exit from the Python interpreter that you've been using, type 
+the ``exit()`` function.
 
 .. code-block:: python
 
@@ -738,8 +739,8 @@ If you were to save and run this, you'd see an error like this:
                ^
     SyntaxError: unexpected EOF while parsing
 
-Python expects you to give further instructions to it which are executed if the
-condition ``3 > 2`` turns out to be true (or ``True`` for that matter).
+Python expects you to give further instructions to it which are executed if
+the condition ``3 > 2`` turns out to be true (or ``True`` for that matter).
 Try to make Python print “It works!”. Change your code in your 
 **python_intro.py** file to this:
 
@@ -875,8 +876,8 @@ Summary
 
 In the last few exercises you learned about:
 
-- **comparing things** – in Python you can compare things by using ``>``, ``>=``,
-  ``==``, ``<=``, ``<`` and the ``and``, ``or`` operators.
+- **comparing things** – in Python you can compare things by using ``>``, 
+  ``>=``, ``==``, ``<=``, ``<`` and the ``and``, ``or`` operators.
 - **Boolean** – a type of object that can only have one of two values:
   ``True`` or ``False``.
 - **Saving files** – storing code in files so you can execute larger programs.
@@ -907,9 +908,10 @@ Replace the code in **python_intro.py** with the following:
 
 Okay, your first function is ready!
 
-You may wonder why there is the name of the function at the bottom of the file.
-This is because Python reads the file and executes it from top to bottom.
-So in order to use your function, you have to re-write it at the bottom.
+You may wonder why there is the name of the function at the bottom of the
+file. This is because Python reads the file and executes it from top to
+bottom. So in order to use your function, you have to re-write it at the
+bottom.
 
 Let's run this now and see what happens:
 

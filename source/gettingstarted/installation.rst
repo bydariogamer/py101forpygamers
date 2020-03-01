@@ -48,7 +48,7 @@ One thing to watch out for: During the installation, you will notice a window
 marked "Setup". Make sure you tick "Add Python 3.8 to PATH" checkbox and click
 on "Install Now", as shown here:
 
-.. image:: ../_static/python_setup_1.png
+.. image:: /_static/python_setup_1.png
 
 Verification
 ------------
@@ -117,11 +117,11 @@ recommendations that are equally powerful but lot simpler.
 Visual Studio Code
 ------------------
 
-Visual Studio Code is source code-editor developed by Microsoft. It has support
-for syntax highlighting, code completition and other tools. It is fairly
-easy to use.
+Visual Studio Code is source code-editor developed by Microsoft. It has
+support for syntax highlighting, code completion and other tools. It is
+fairly easy to use.
 
-`Download it here <https://code.visualstudio.com/>`_
+`Download it here <https://code.visualstudio.com/>`__
 
 Gedit
 -----
@@ -130,15 +130,15 @@ Gedit is GNOME text editor. It's more generic purpose text editor but it
 still has features like syntax highlighting and it's well suitable for
 tutorial purposes.
 
-`Download it here <https://wiki.gnome.org/Apps/Gedit#Download>`_
+`Download it here <https://wiki.gnome.org/Apps/Gedit#Download>`__
 
 Sublime Text 3
 --------------
 
-Sublime Text is very popular editor with free evaluation period. Note that it's
-not free.
+Sublime Text is very popular editor with free evaluation period. Note that
+it's not free.
 
-`Download it here <https://www.sublimetext.com/3>`_
+`Download it here <https://www.sublimetext.com/3>`__
 
 Atom
 ----
@@ -151,18 +151,18 @@ GitHub.
 Why are we installing a code editor?
 ------------------------------------
 
-You might be wondering why we are installing this special code editor software,
-rather than using something like Wordpad or Notepad.
+You might be wondering why we are installing this special code editor
+software, rather than using something like Wordpad or Notepad.
 
 The first reason is that code needs to be **plain text**, and the problem with
-programs like Word and Textedit is that they don't actually produce plain text,
-they produce rich text (with fonts and formatting) using custom formats like
-RTF (Rich Text Format).
+programs like Word and Textedit is that they don't actually produce plain
+text, they produce rich text (with fonts and formatting) using custom formats
+like RTF (Rich Text Format).
 
-Second reason is that code editors are specialized for editing code, so they can
-provide helpful features like highlighting code with color according to it's
-meaning, or automatically closing quotes for you. Some editors can even show
-certain type of mistakes and errors before you even run the program you have
-written.
+Second reason is that code editors are specialized for editing code, so they
+can provide helpful features like highlighting code with color according to 
+it's meaning, or automatically closing quotes for you. Some editors can even
+show certain type of mistakes and errors before you even run the program you
+have written.
 
 You'll see all this in action later.

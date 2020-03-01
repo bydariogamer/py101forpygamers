@@ -3,8 +3,8 @@
 Asking for help
 ===============
 
-Asking for help in the best way possible is not as easy as when you need to ask
-help by using computer. You only have a few tools at your disposal - text,
+Asking for help in the best way possible is not as easy as when you need to
+ask help by using computer. You only have a few tools at your disposal - text,
 images and videos. It's also difficult to express yourself if you don't know
 the exact terms or you don't know what happens on your computer or in your 
 program.
@@ -20,14 +20,14 @@ Pygame also has other help channels which you can find at https://www.pygame.org
 What are you trying to do?
 --------------------------
 
-The first thing when asking for help is to explain what are you trying to do. It
-is a common pitfall to ask how to do "thing X". A single sentence is often
+The first thing when asking for help is to explain what are you trying to do.
+It is a common pitfall to ask how to do "thing X". A single sentence is often
 enough. Purpose is to give people helping you an overview of your problem
 without technical details. For example:
 
 - I'm trying to move my player from left to right.
 - I'm trying to place multiple copies of my enemy on screen.
-- I'm trying to make my player character ump.
+- I'm trying to make my player character jump.
 - I'm trying to make enemy movement random.
 
 How are you trying to do that?
@@ -68,13 +68,13 @@ right?
 
 If your code is longer and doesn't fit in Discord (Discord has some limit for
 paste) you can use so-called pastebins for your code. If you have a GitHub 
-account you can use `github gists <https://gist.github.com/>`_ or there exists
+account you can use `github gists <https://gist.github.com/>`__ or there exists
 several nice existing services like https://dpaste.org/ where you can paste 
 your code as well.
 
 If you have a full project sharing it by using distributed repositories is a
-good option like using `GitHub <https://github.com/>`_ or 
-`BitBucket <https://bitbucket.org/>`_.
+good option like using `GitHub <https://github.com/>`__ or 
+`BitBucket <https://bitbucket.org/>`__.
 
 Error messages - Tracebacks
 ---------------------------
@@ -103,6 +103,6 @@ options how to handle that. If the problem can be shown in a still image,
 a screen capture is a good option. On most computers it is enough to press
 `Print Screen` button to have a screen captured.
 
-If the problem requires recording a video, you need to have some tool for recording
-videos. One such a tool is `ScreenToGif <https://www.screentogif.com/>`_ which
-is a free, open source tool for capturing video to gifs.
+If the problem requires recording a video, you need to have some tool for
+recording videos. One such a tool is `ScreenToGif <https://www.screentogif.com/>`__ 
+which is a free, open source tool for capturing video to gifs.

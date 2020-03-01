@@ -13,6 +13,7 @@ I recommend that you read the chapters in the following order:
 #. :ref:`shellintro`
 #. :ref:`pythonintroduction`
 #. :ref:`pygameintroduction`
+#. :ref:`movingthings`
 
 Looking for PyCharm how-to?
 ---------------------------

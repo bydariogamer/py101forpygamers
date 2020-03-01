@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.1-dev (977be01, 2020-02-27)"
+   sodipodi:docname="vectormath1.svg"
+   id="svg110"
+   version="1.1"
+   overflow="hidden"
+   height="231"
+   width="498">
+  <metadata
+     id="metadata114">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:current-layer="svg110"
+     inkscape:window-maximized="0"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:cy="200.15152"
+     inkscape:cx="365.04379"
+     inkscape:zoom="0.83984375"
+     showgrid="false"
+     id="namedview112"
+     inkscape:window-height="686"
+     inkscape:window-width="1040"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <defs
+     id="defs66">
+    <clipPath
+       id="clip0">
+      <path
+         inkscape:connector-curvature="0"
+         id="path63"
+         clip-rule="evenodd"
+         fill-rule="evenodd"
+         d="M 0,0 H 1280 V 720 H 0 Z" />
+    </clipPath>
+  </defs>
+  <g
+     transform="translate(-222,-130)"
+     id="g108"
+     clip-path="url(#clip0)">
+    <rect
+       id="rect68"
+       fill="#ffffff"
+       height="720"
+       width="1280"
+       y="0"
+       x="0" />
+    <rect
+       id="rect70"
+       fill="#f2f2f2"
+       stroke-miterlimit="8"
+       stroke="#000000"
+       height="230"
+       width="497"
+       y="130.5"
+       x="222.5" />
+    <rect
+       id="rect72"
+       fill="#4472c4"
+       stroke-miterlimit="8"
+       stroke="#2f528f"
+       height="30"
+       width="30"
+       y="256.5"
+       x="351.5" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path74"
+       d="m 222.849,130.142 124.69,121.318 -0.698,0.717 -124.69,-121.319 z m 126.174,117.88 2.945,8.446 -8.523,-2.712 z" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path76"
+       fill-rule="evenodd"
+       fill="#dae3f3"
+       stroke-miterlimit="8"
+       stroke="#d9d9d9"
+       d="m 481.5,290.5 c 0,-4.418 3.358,-8 7.5,-8 4.142,0 7.5,3.582 7.5,8 0,4.418 -3.358,8 -7.5,8 -4.142,0 -7.5,-3.582 -7.5,-8 z" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path78"
+       fill-rule="evenodd"
+       fill="#4472c4"
+       stroke-miterlimit="8"
+       stroke="#2f528f"
+       d="m 490.5,291.5 h 21 l -6.391,7 H 497.5 v 8.333 l -7,7.667 z" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path80"
+       d="m 222.757,130.071 262.023,156.903 -0.514,0.857 -262.023,-156.902 z m 262.678,153.215 4.808,7.542 -8.918,-0.679 z" />
+    <text
+       id="text82"
+       transform="translate(375.551,170)"
+       font-size="24px"
+       font-weight="400"
+       font-family="Calibri, Calibri_MSFontService, sans-serif">position_vec</text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path84"
+       transform="matrix(-1,-8.74228e-8,-8.74228e-8,1,367.271,181.5)"
+       fill="#4472c4"
+       d="M 0.221105,-0.448456 55.0122,26.5655 54.57,27.4624 -0.221105,0.448456 Z M 55.364,22.8367 l 5.4065,7.1253 -8.9441,0.05 z" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path86"
+       transform="matrix(1,0,0,-1,366.5,181.5)"
+       fill-rule="evenodd"
+       fill="none"
+       stroke-miterlimit="8"
+       stroke="#4472c4"
+       d="M 0,0 146.642,1.04987e-4" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path88"
+       transform="matrix(-1,-8.74228e-8,-8.74228e-8,1,501.271,230.5)"
+       fill="#4472c4"
+       d="M 0.221105,-0.448456 55.0122,26.5655 54.57,27.4624 -0.221105,0.448456 Z M 55.364,22.8367 l 5.4065,7.1253 -8.9441,0.05 z" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path90"
+       transform="matrix(1,0,0,-1,501.5,230.5)"
+       fill-rule="evenodd"
+       fill="none"
+       stroke-miterlimit="8"
+       stroke="#4472c4"
+       d="M 0,0 146.642,1.04987e-4" />
+    <text
+       id="text92"
+       transform="translate(509.711,218)"
+       font-size="24px"
+       font-weight="400"
+       font-family="Calibri, Calibri_MSFontService, sans-serif">target_vec</text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path94"
+       d="m 351.622,256.015 129.981,32.732 -0.244,0.97 -129.981,-32.732 z m 129.543,29.013 6.781,5.832 -8.734,1.925 z" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path96"
+       transform="matrix(1,0,0,-1,410.5,333.367)"
+       fill="#4472c4"
+       d="M 0.435898,-0.244935 26.8765,46.8101 26.0047,47.2999 -0.435898,0.244935 Z M 29.2747,43.9331 29.7065,52.867 22.3003,47.8521 Z" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path98"
+       transform="matrix(-1,-8.74228e-8,-8.74228e-8,1,411,333.5)"
+       fill-rule="evenodd"
+       fill="none"
+       stroke-miterlimit="8"
+       stroke="#4472c4"
+       d="M 0,0 141.5,1.04987e-4" />
+    <text
+       id="text100"
+       transform="translate(266.97,321)"
+       font-size="24px"
+       font-weight="400"
+       font-family="Calibri, Calibri_MSFontService, sans-serif">direction_vec</text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path102"
+       transform="matrix(-1,-8.74228e-8,-8.74228e-8,1,505.511,277.5)"
+       fill="#4472c4"
+       d="M 0.336588,-0.369741 10.4175,8.8073 9.74435,9.54678 -0.336588,0.369741 Z M 11.7877,5.32154 15.0108,13.6649 6.40225,11.2374 Z" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path104"
+       fill-rule="evenodd"
+       fill="none"
+       stroke-miterlimit="8"
+       stroke="#4472c4"
+       d="m 505.5,276.5 201.17,0.415" />
+    <text
+       id="text106"
+       transform="translate(507.933,264)"
+       font-size="24px"
+       font-weight="400"
+       font-family="Calibri, Calibri_MSFontService, sans-serif">Mouse click position</text>
+  </g>
+</svg>

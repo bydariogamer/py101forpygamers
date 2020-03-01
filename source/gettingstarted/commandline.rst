@@ -31,11 +31,11 @@ a bit, but you don't have to try all these suggestions):
 * Hold the Windows key and press the "R" key to get "Run" window. Type
   "cmd" in the box, and click the OK button.
 
-.. image:: ../_static/windows_run_cmd.png
+.. image:: /_static/windows_run_cmd.png
 
 You should see following window:
 
-.. image:: ../_static/windows_cmd.png
+.. image:: /_static/windows_cmd.png
 
 Windows also has PowerShell which is very powerful command-line tool.
 This tutorial is not using it.
