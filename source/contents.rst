@@ -13,5 +13,6 @@ Table of Contents
 
     pygame/intro
     pygame/movingthings
+    pygame/collisions
     
     pycharm
