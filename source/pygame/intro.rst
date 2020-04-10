@@ -396,13 +396,9 @@ as you can see there are quite many parenthesis. Parameters are:
 
 If you run your application now it runs but there are no rectangle visible.
 
-By default Pygame uses so-called *double buffering*. It means that Pygame uses
-actually two surfaces - one for drawing, one for displaying. Once you have
-completed drawing on a hidden surface you need to tell Pygame to "flip" the 
-surfaces. Then Pygame copies drawing surface to display surface and you'll see
-your drawing - the white rectangle.
-
-At the end of the gameloop add the following:
+Pygame doesn't draw directly to the screen. It first prepares the screen behind
+the scenes, then shows it all at once only when it's ready. This is done with
+the following function call which you need to and end of the gameloop:
 
 .. code-block:: python
 
