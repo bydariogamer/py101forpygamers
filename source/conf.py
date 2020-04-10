@@ -17,12 +17,12 @@ import cloud_sptheme as csp
 
 # -- Project information -----------------------------------------------------
 
-project = 'Python 101 for PyGamers'
-copyright = '2019, Jani Tiainen'
+project = 'Becoming Pygamer'
+copyright = '2019-2020, Jani Tiainen'
 author = 'Jani Tiainen'
 
 # The full version, including alpha/beta/rc tags
-release = '0.0.1'
+release = '0.0.2'
 
 
 # -- General configuration ---------------------------------------------------

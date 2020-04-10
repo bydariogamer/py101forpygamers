@@ -1,10 +1,10 @@
-Welcome to Python 101 for PyGamers tutorial!
-============================================
+Welcome to Becoming Pygamer!
+============================
 
-Copyright © Jani Tiainen 2019
+Copyright © 2019-2020 Jani Tiainen
 
-In this tutorial you will learn basics of Python 3 and basics of
-Pygame 2. Pygame 1.9 is not covered here.
+This book covers topic for the beginners to get started with Python 3
+and Pygame 2.
 
 I recommend that you read the chapters in the following order:
 
