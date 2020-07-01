@@ -14,5 +14,6 @@ Table of Contents
     pygame/intro
     pygame/movingthings
     pygame/collisions
+    pygame/sprites
     
     pycharm

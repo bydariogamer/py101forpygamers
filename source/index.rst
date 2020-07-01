@@ -15,6 +15,7 @@ I recommend that you read the chapters in the following order:
 #. :ref:`pygameintroduction`
 #. :ref:`movingthings`
 #. :ref:`collisions`
+#. :ref:`sprites`
 
 Looking for PyCharm how-to?
 ---------------------------
