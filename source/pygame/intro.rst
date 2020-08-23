@@ -7,6 +7,7 @@ Now you should be comfortable with the Python and using the command-line. It
 is time to start get hands dirty with the Pygame.
 
 .. _projectdirs:
+.. index:: Creating workspace, Workspace, Umbrella directory
 
 Creating workspace
 ------------------
@@ -17,9 +18,19 @@ the Pygame tutorial. In the Python tutorial chapter you used your desktop
 as a workspace but in the long run you don't want to put all your files on 
 your desktop.
 
-First you should create an umbrella directory under your home directory called
-``pygame-projects``. Under that directory you will be creating other
-directories (workspaces) to contain your Pygame projects, including this tutorial.
+First you should create an :index:`umbrella directory <single: Umbrella directory>`
+under your home directory called ``pygame-projects``. Under that directory you
+will be creating other directories (workspaces) to contain your Pygame 
+projects, including this tutorial.
+
+Eventually you want to have your directory structure to look like the following:
+
+.. code-block::
+
+    C:\Users\User\
+    └───pygame-projects
+        ├───game1
+        └───game2
 
 Creating workspace: Windows
 ---------------------------
@@ -45,6 +56,8 @@ directory to ``pygame-projects`` and then create the workspace directory:
 
 Now your directories and the workspace are ready for Pygame installation. So
 please keep your command-line open for further steps.
+
+.. index:: Pygame installation
 
 Pygame installation
 -------------------
@@ -135,6 +148,8 @@ installation.
     it uses that file instead of creating a new one. If you experience 
     missing Pipfile please check your directory tree that there are no
     Pipfile there.
+
+.. index:: Initialization, Gameloop
 
 Initialization and a gameloop
 -----------------------------
@@ -262,6 +277,8 @@ You should see Pygame window appearing and staying visible. When you click 'X'
 to close window application closes. Congratulations! You have done your first
 Pygame application.
 
+.. index:: Events, Eventloop, Handling events
+
 Events
 ------
 
@@ -356,6 +373,8 @@ You now have learned basics of the Pygame:
 - Events and event queue
 - How to read keypress
 
+.. index:: Surface, Images, Screen
+
 Surfaces
 --------
 
@@ -423,6 +442,8 @@ At this point your full code should look like the following:
 And when you save the file and run it you should see the following window:
 
 .. image:: ../_static/pygame_rect.png
+
+.. index:: Rect
 
 Rects
 -----
@@ -540,6 +561,8 @@ complete list:
     w           width of rect
     h           height of rect
     =========== ===========
+
+.. index:: Blit, Blitting
 
 Blitting
 --------

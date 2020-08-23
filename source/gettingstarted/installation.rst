@@ -3,6 +3,8 @@
 First steps
 ===========
 
+.. index:: Python installation
+
 Python
 ------
 
@@ -62,6 +64,7 @@ and run following command:
     Python 3.8.0
 
 .. _pipenv:
+.. index:: Pipenv, Virtual environment
 
 Pipenv
 ------
@@ -96,6 +99,7 @@ something similar as following:
     Installing collected packages: virtualenv-clone, virtualenv, certifi, pipenv
 
 .. _code-editor:
+.. index:: Code editor, Editor, IDE
 
 Code editor
 -----------

@@ -1,4 +1,5 @@
 .. _shellintro:
+.. index:: Command-line, Command prompt, Shell, Console, Terminal, Command window
 
 Introduction to command-line
 ============================

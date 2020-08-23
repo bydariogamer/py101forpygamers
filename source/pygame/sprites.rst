@@ -1,4 +1,5 @@
 .. _sprites:
+.. index:: Sprites
 
 Sprites
 =======
@@ -87,6 +88,7 @@ Here is the full program with the changes:
 
 .. literalinclude:: sourcecode/sprites_1.py
 
+.. index:: Sprite collisions
 
 Collisions
 ~~~~~~~~~~
@@ -111,6 +113,7 @@ Here is the full code:
 Now when the white sprite which is movable collides with the green sprite it is
 respawned on top left corner.
 
+.. index:: Pygame sprites, pygame.sprite
 
 Sprites with ``pygame.sprite``
 ------------------------------

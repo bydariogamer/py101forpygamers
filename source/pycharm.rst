@@ -1,4 +1,5 @@
 .. _pycharm:
+.. index:: PyCharm
 
 PyCharm
 =======

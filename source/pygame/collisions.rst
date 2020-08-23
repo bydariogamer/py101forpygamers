@@ -1,4 +1,5 @@
 .. _collisions:
+.. index:: Collisions
 
 Collisions
 ==========
@@ -12,6 +13,8 @@ to check various collisions.
 Here you will be presented two most common types of check for collision. A
 collision between ``Rect`` and a point and collision between two ``Rect``
 objects.
+
+.. index:: Point collision
 
 Point collision
 ---------------
@@ -46,6 +49,8 @@ point is within the rect.
 The following is the full code:
 
 .. literalinclude:: sourcecode/collision_2.py
+
+.. index:: Rect collision
 
 Colliding to another rect
 -------------------------
