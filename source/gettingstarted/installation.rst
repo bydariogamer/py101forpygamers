@@ -63,8 +63,8 @@ and run following command:
     $ python --version
     Python 3.8.0
 
-.. _pipenv:
 .. index:: Pipenv, Virtual environment
+.. _pipenv:
 
 Pipenv
 ------
@@ -98,8 +98,8 @@ something similar as following:
     Requirement already satisfied: pip>=9.0.1 in c:\users\jani\appdata\local\programs\python\python38\lib\site-packages (from pipenv) (19.2.3)
     Installing collected packages: virtualenv-clone, virtualenv, certifi, pipenv
 
-.. _code-editor:
 .. index:: Code editor, Editor, IDE
+.. _code-editor:
 
 Code editor
 -----------

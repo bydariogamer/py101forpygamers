@@ -1,5 +1,5 @@
-.. _collisions:
 .. index:: Collisions
+.. _collisions:
 
 Collisions
 ==========

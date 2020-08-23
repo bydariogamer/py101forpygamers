@@ -6,8 +6,8 @@ Introduction to Pygame
 Now you should be comfortable with the Python and using the command-line. It
 is time to start get hands dirty with the Pygame.
 
-.. _projectdirs:
 .. index:: Creating workspace, Workspace, Umbrella directory
+.. _projectdirs:
 
 Creating workspace
 ------------------
@@ -402,6 +402,7 @@ operations on the screen surface. Try drawing the rectangle:
 
 ``pg.draw.rect()`` draws a rectangle. It takes in quite a set parameters and
 as you can see there are quite many parenthesis. Parameters are:
+
     - ``screen`` - a surface to draw rectangle to, in this case you draw
       directly on to screen.
     - ``(255, 255, 255)`` - A color triplet. Each number represents one value of

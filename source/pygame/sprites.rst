@@ -1,5 +1,5 @@
-.. _sprites:
 .. index:: Sprites
+.. _sprites:
 
 Sprites
 =======
