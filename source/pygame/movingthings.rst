@@ -105,7 +105,7 @@ resemble layout of the cursor keys.
 
 Player movement could be done by checking ``pg.KEYDOWN`` events but it has one
 problem. Player would need to press a button and then release it for next key
-down even to happen. To address that Pygame provides ``pg.key.get_pressed()``
+down event to happen. To address that Pygame provides ``pg.key.get_pressed()``
 function to return all pressed down keys at the specific point of time.
 
 .. note::
