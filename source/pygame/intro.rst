@@ -6,7 +6,7 @@ Introduction to Pygame
 Now you should be comfortable with the Python and using the command-line. It
 is time to start get hands dirty with the Pygame.
 
-.. index:: Creating workspace, Workspace, Umbrella directory
+.. index:: Creating workspace, Workspace
 .. _projectdirs:
 
 Creating workspace
