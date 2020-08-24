@@ -277,6 +277,8 @@ You should see Pygame window appearing and staying visible. When you click 'X'
 to close window application closes. Congratulations! You have done your first
 Pygame application.
 
+.. note:: Code runs in a busy loop and high CPU usage is expected result.
+
 .. index:: Events, Eventloop, Handling events
 
 Events
