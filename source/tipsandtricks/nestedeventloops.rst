@@ -18,7 +18,7 @@ So in most cases ``keyboard_handler`` function doesn't get any events.
 
 The fix is simple:
 
-.. literlinclude:: sourecode/nestedloops_right.py
+.. literalinclude:: sourcecode/nestedloops_right.py
 
 Change here is that before processing events you take all current events
 and assign them to a variable. ``events`` in above code. Now you can pass and
