@@ -17,8 +17,7 @@ Finally there are two ways to handle sprites, first with custom class, second
 with using Pygame helper classes.
 
 This chapter requires knowledge of Python classes and a basic knowledge
-about object oriented programming. Neither of them are not covered in this
-book.
+about object oriented programming. This book doesn't cover them.
 
 `Python tutorial of classes <https://docs.python.org/3/tutorial/classes.html>`__
 
@@ -44,7 +43,7 @@ Sprites with classes
 --------------------
 
 Common approach is to use classes to build sprites. So let's start with
-a simple spesifications: you want to have a sprite class which can hold your
+a simple specifications: you want to have a sprite class which can hold your
 image and rect to control it's position and to help with collision detection.
 
 The initial class definition:
