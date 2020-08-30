@@ -16,6 +16,7 @@ I recommend that you read the chapters in the following order:
 #. :ref:`movingthings`
 #. :ref:`collisions`
 #. :ref:`sprites`
+#. :ref:`tipsandtricks`
 
 Looking for PyCharm how-to?
 ---------------------------

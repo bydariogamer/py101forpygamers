@@ -2,6 +2,7 @@ Table of Contents
 =================
 
 .. toctree::
+    :maxdepth: 2
 
     index
     
@@ -15,5 +16,7 @@ Table of Contents
     pygame/movingthings
     pygame/collisions
     pygame/sprites
-    
+
+    tipsandtricks/tipsandtricks
+
     pycharm
