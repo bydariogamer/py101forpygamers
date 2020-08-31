@@ -1,1 +1,1 @@
-sphinx-autobuild -b html -B --delay 1 source build
+sphinx-autobuild -b html --open-browser --delay 1 source build
