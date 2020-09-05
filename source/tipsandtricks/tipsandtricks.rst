@@ -12,3 +12,5 @@ This section contains various tips and tricks and advanced Pygame usage.
 
     nestedeventloops
     inputbox
+    images
+    
