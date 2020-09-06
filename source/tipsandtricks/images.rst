@@ -3,10 +3,9 @@
 Loading images
 ==============
 
-Loading images to pygame is rather straightforward:
-
-The following code loads image relative to current file from subdirectory
-called ``assets``:
+Loading images to pygame is rather straightforward. The following code loads
+image relative to current file from subdirectory called ``assets``. See
+:ref:`paths` for more information.
 
 .. code-block:: python
 
@@ -15,7 +14,8 @@ called ``assets``:
 
     pygame.init()
 
-    image_path = os.path.join(os.path.dirname(__file__), "assets/image.png")
+    BASE_PATH = os.path.dirname(os.path.abspath(__file__))
+    image_path = os.path.join(BASE_PATH, "assets/image.png")
     surface = pygame.image.load(image_path)
 
     fast_surface = surface.convert()
