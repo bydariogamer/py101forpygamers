@@ -68,3 +68,7 @@ The above is equivalent to code in previous section where ``os.path`` was used.
 
 ``image_path2`` is equivalent to ``image_path`` it is using division operator
 to join paths instead of ``joinpath`` method.
+
+.. note::
+    Pygame doesn't support Path objects yet. To overcome this issue you have to
+    cast Path to string: ``pygame.image.load(str(image_path))``
