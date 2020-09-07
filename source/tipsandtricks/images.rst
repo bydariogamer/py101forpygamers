@@ -45,3 +45,47 @@ transparent background or you do have images that are semi-transparent.
 
     If you loaded image with alpha channel or used ``.convert_alpha()`` setting
     blanket alpha won't work.
+
+Batch loading images
+--------------------
+
+When you do have multiple images it might come tedious to load images one by one.
+To help that you can declare function that does loading for you.
+
+The following code is just one way to do this. It's purpose is to give you 
+ideas how to implement your own.
+
+.. code-block:: python
+
+    from pathlib import Path
+    import pygame
+
+    def load_images():
+        # Make path relative to current file
+        p = Path(__file__).absolute().parent.appendpath("images")
+        d = {f.stem: pygame.image.load(f).convert() for f in p.glob("*.png")}
+        return d
+
+So what above code actually does?
+
+First directory is determined being relative to Python file where function is
+and appends "images" to a path and assignd it to variable ``p``. You can change
+those values to come from the parameters.
+
+Second is dict comprehension. Code generates a dictionary where image name
+without extension is key and value is loaded image surface.
+
+So when you call ``images = load_images()`` images will be a dictionary and
+you can reference images like ``images["player"]``
+
+To help you to understand above the following code would have same result:
+
+.. code-block:: python
+
+    images = {}
+    images["player"] = pygame.image.load("images/player.png").convert()
+    images["enemy1"] = pygame.image.load("images/enemy1.png").convert()
+    images["enemy2"] = pygame.image.load("images/enemy2.png").convert()
+
+.. note::
+    Above code is missing proper relative path code due demonstration purposes.
