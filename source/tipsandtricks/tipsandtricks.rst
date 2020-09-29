@@ -11,6 +11,7 @@ This section contains various tips and tricks and advanced Pygame usage.
     :maxdepth: 1
     :numbered:
 
+    framelimiting
     nestedeventloops
     inputbox
     paths
