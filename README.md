@@ -1,8 +1,8 @@
-# Python 101 for Pygamers
+# Becoming Pygamer
 
 This is the tutorial for Python and Pygame for the beginners.
 
-The tutorial is published at https://py101forpygamers.books.tiainen.cc/
+The tutorial is published at https://becomingpygamer.books.tiainen.cc/
 
 The tutorial is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
 
