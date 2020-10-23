@@ -16,15 +16,26 @@ computer. You should already know how to do that - you learned that in the
 
 Once you're ready follow the instructions below.
 
-You need to open up a Python console, so type in ``python`` in command-line
+You need to open up a Python console, so type in ``py`` in command-line
 and hit ``enter``
 
 .. code-block::
 
-    $ python
-    Python 3.8.0 (...)
+    $ py
+    Python 3.9.0 (...)
     Type "help", "copyright", "credits" or "license" for more information.
     >>>                                                                              
+
+.. note::
+    On other platforms than Windows 'py' command does not exist. You should
+    use ``python3`` command instead.:
+
+    .. code-block::
+        
+        $ python3
+        Python 3.9.0 (...)
+        Type "help", "copyright", "credits" or "license" for more information.
+        >>>                                                                              
 
 Your very first Python command
 ------------------------------
@@ -701,17 +712,16 @@ Now use Python to execute the code in the file like this:
 
 .. code-block::
 
-    > python python_intro.py
+    > py python_intro.py
     Hello, PyGamers!
 
 .. note::
-    On other platforms than Windows 'python' might refer to Python 2 rather
-    than Python 3. You can check it easily with ``python --version`` command. 
-    Instead, use you might need to use 'python3' to execute the file:
+    On other platforms than Windows 'py' command does not exist. You can
+    check it easily with ``python3 --version`` command.:
 
     .. code-block::
         
-        $ python python_intro.py
+        $ python3 python_intro.py
 
 Alright! You just ran your first Python program that was saved to a file.
 Feel awesome?

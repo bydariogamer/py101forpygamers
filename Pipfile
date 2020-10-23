@@ -4,18 +4,17 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
-pylint = "*"
-pygame = "==2.0.0dev6"
+doc8 = "*"
+docutils = "*"
 ipython = "*"
+pylint = "*"
+pygame = "==2.0.0dev20"
+sphinx-autobuild = "*"
 
 [packages]
 sphinx = "*"
 pygments = "*"
-docutils = "*"
-doc8 = "*"
-pygame = "==2.0.0dev6"
 cloud-sptheme = "*"
-sphinx-autobuild = "*"
 sphinxcontrib-fulltoc = "*"
 
 [requires]
