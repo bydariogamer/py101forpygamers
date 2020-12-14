@@ -5,18 +5,17 @@ verify_ssl = true
 
 [dev-packages]
 pylint = "*"
-pygame = "==2.0.0dev6"
 ipython = "*"
+doc8 = "*"
+sphinx-autobuild = "*"
 
 [packages]
 sphinx = "*"
 pygments = "*"
 docutils = "*"
-doc8 = "*"
-pygame = "==2.0.0dev6"
+pygame = "==2.0.0"
 cloud-sptheme = "*"
-sphinx-autobuild = "*"
 sphinxcontrib-fulltoc = "*"
 
 [requires]
-python_version = "3.8"
+python_version = "3.9"
