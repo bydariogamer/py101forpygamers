@@ -40,14 +40,14 @@ reach this page, try one of these methods:
 
 You can download Python for Windows from the website 
 https://www.python.org/downloads/windows/. Download latest version 
-available. At the time of writing it that is 3.8.0. If your computer is
+available. At the time of writing it that is 3.9.0. If your computer is
 running **64-bit** windows download **Windows x86-64 executable installer**.
 Otherwise download **Windows x86 executable installer**. After downloading
 installer, you should run (double-click on it) and follow the instructions
 here.
 
 One thing to watch out for: During the installation, you will notice a window
-marked "Setup". Make sure you tick "Add Python 3.8 to PATH" checkbox and click
+marked "Setup". Make sure you tick "Add Python 3.9 to PATH" checkbox and click
 on "Install Now", as shown here:
 
 .. image:: /_static/python_setup_1.png
@@ -61,7 +61,7 @@ and run following command:
 .. code-block::
 
     $ python --version
-    Python 3.8.0
+    Python 3.9.0
 
 .. index:: Pipenv, Virtual environment
 .. _pipenv:

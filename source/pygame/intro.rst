@@ -85,12 +85,12 @@ following command:
 
 .. code-block:: winbatch
 
-    > pipenv install --pre pygame==2.0.0.dev6
+    > pipenv install --pre pygame==2.0.0.dev20
 
 The ``pipenv`` command does several things at once. At the first time it may
 take a long time to run since it builds up some caches. So what happens when
 you run the command? First pipenv creates a virtual environment. Then it
-downloads and installs specific version of Pygame for you (2.0.0dev6 in this
+downloads and installs specific version of Pygame for you (2.0.0dev20 in this
 case). As last it checks all the dependencies for Pygame and installs them
 if necessary.
 
@@ -100,9 +100,9 @@ You should see the output similar to following:
 
     Creating a virtualenv for this project…
     Pipfile: C:\Users\user\pygame-projects\pygame-tutorial\Pipfile
-    Using c:\users\user\appdata\local\programs\python\python38\python.exe (3.8.0) to create virtualenv…
-    [====] Creating virtual environment...Already using interpreter c:\users\user\appdata\local\programs\python\python38\python.exe
-    Using base prefix 'c:\\users\\user\\appdata\\local\\programs\\python\\python38'
+    Using c:\users\user\appdata\local\programs\python\python39\python.exe (3.9.0) to create virtualenv…
+    [====] Creating virtual environment...Already using interpreter c:\users\user\appdata\local\programs\python\python39\python.exe
+    Using base prefix 'c:\\users\\user\\appdata\\local\\programs\\python\\python39'
     New python executable in C:\Users\user\.virtualenvs\pygame-tutorial-5se6izmW\Scripts\python.exe
     Installing setuptools, pip, wheel...
     done.
@@ -110,7 +110,7 @@ You should see the output similar to following:
     Successfully created virtual environment!
     Virtualenv location: C:\Users\user\.virtualenvs\pygame-tutorial-5se6izmW
     Creating a Pipfile for this project…
-    Installing pygame==2.0.0dev6…
+    Installing pygame==2.0.0dev20…
     Adding pygame to Pipfile's [packages]…
     Installation Succeeded
     Pipfile.lock not found, creating…
@@ -130,12 +130,22 @@ To verify that Pygame was installed successfully type the following:
 
 .. code-block:: winbatch
 
-    > pipenv run python -c "import pygame"
-    pygame 2.0.0.dev6 (SDL 2.0.10, python 3.8.0)
+    > pipenv run py -c "import pygame"
+    pygame 2.0.0.dev20 (SDL 2.0.12, python 3.9.0)
     Hello from the pygame community. https://www.pygame.org/contribute.html
 
 That indicates successful installation and you've verified the Pygame
 installation.
+
+.. note::
+
+    In case of other than Windows you shoud use ``python3`` instead of ``py``.
+
+    .. code-block::
+
+        > pipenv run python3 -c "import pygame"
+        pygame 2.0.0.dev20 (SDL 2.0.12, python 3.9.0)
+        Hello from the pygame community. https://www.pygame.org/contribute.html
 
 .. note::
 
@@ -224,8 +234,8 @@ Save the file and run it:
 
 .. code-block:: winbatch
 
-    > pipenv run python pygame_tutorial.py
-    pygame 2.0.0.dev6 (SDL 2.0.10, python 3.8.0)
+    > pipenv run py pygame_tutorial.py
+    pygame 2.0.0.dev20 (SDL 2.0.12, python 3.9.0)
     Hello from the pygame community. https://www.pygame.org/contribute.html
 
 You might see the Pygame window popping up and then disappearing. Why is that
@@ -270,7 +280,7 @@ When you save the file and run it:
 .. code-block:: winbatch
 
     > pipenv run python pygame_tutorial.py
-    pygame 2.0.0.dev6 (SDL 2.0.10, python 3.8.0)
+    pygame 2.0.0.dev20 (SDL 2.0.12, python 3.9.0)
     Hello from the pygame community. https://www.pygame.org/contribute.html
 
 You should see Pygame window appearing and staying visible. When you click 'X'
@@ -358,7 +368,7 @@ Save the file and run it. Hit ``space``-key few times and you should see text
 .. code-block:: winbatch
 
     > pipenv run python pygame_tutorial.py
-    pygame 2.0.0.dev6 (SDL 2.0.10, python 3.8.0)
+    pygame 2.0.0.dev20 (SDL 2.0.12, python 3.9.0)
     Hello from the pygame community. https://www.pygame.org/contribute.html
     Jump!
     Jump!
