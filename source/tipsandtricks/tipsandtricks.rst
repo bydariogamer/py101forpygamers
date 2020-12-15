@@ -16,3 +16,5 @@ This section contains various tips and tricks and advanced Pygame usage.
     inputbox
     paths
     images
+    fonts
+    
