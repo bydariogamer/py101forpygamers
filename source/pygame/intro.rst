@@ -341,7 +341,7 @@ do jump for player. Code for that would look like the following:
 ``if`` in above code uses two ``properties``. First property is the common
 ``type`` and because now code tested key down event ``pg.KEYDOWN`` there exists
 also second property the ``key``. The ``key`` contains integer value of key
-which was pressed down. Unfortunately you don't have to remember values
+which was pressed down. Fortunately you don't have to remember values
 because Pygame provides easily memorable ``constants``.
 
 .. note::
